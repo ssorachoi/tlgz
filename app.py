@@ -57,18 +57,27 @@ st.markdown("""
         font-size: 1.1em;
     }
     .result-box {
-        background-color: #f0f8ff;
-        border-left: 5px solid #00D9FF;
+        background-color: #e6f2ff;
+        border-left: 5px solid #0099ff;
         padding: 15px;
         border-radius: 5px;
         margin: 15px 0;
+        color: #000;
+    }
+    .result-box b {
+        color: #0066cc;
+        font-size: 1.1em;
     }
     .error-box {
-        background-color: #fff3cd;
-        border-left: 5px solid #ffc107;
+        background-color: #fff8e1;
+        border-left: 5px solid #ff9800;
         padding: 15px;
         border-radius: 5px;
         margin: 15px 0;
+        color: #000;
+    }
+    .error-box b {
+        color: #e65100;
     }
     </style>
 """, unsafe_allow_html=True)
